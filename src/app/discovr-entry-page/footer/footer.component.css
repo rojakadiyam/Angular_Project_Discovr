@@ -1,0 +1,32 @@
+
+	
+        li.nav-item {
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            
+        }
+        a.nav-link {
+            color: #000000 !important;
+        }
+
+
+        @media(max-width:767px){
+			ul.nav.nav-pills {
+                display: none;
+    
+            }
+            img#footer-img {
+                margin: 11px 0px 0px -28px;
+            }
+		}
+		@media(min-width:768px){
+			ul.nav.nav-pills {
+                display: flex;
+    
+            }
+		}

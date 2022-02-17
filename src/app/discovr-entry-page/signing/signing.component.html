@@ -1,0 +1,694 @@
+<div *ngIf="true">
+    <header class="py-3 px-5" *ngIf="false">
+        <div class="container-fluid d-flex flex-wrap justify-content-center">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                <span class="fs-4"><img src="assets/images/logo.png"></span>
+            </a>
+            <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+                <img src="assets/images/Ellipse.png">
+            </div>
+        </div>
+    </header>
+    <nav class="py-2 bg-light border-bottom">
+        <div class="col-12 container d-flex flex-wrap">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                <span class="fs-4"><img src="assets/images/logo.png"></span>
+            </a>
+            <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+                <img src="assets/images/Ellipse.png">
+            </div>
+        </div>
+      </nav>
+      
+    <div class="bg bg-dark py-2 px-2">
+        <p class="text-white m-auto p-2 fs-6 mx-5">Discover Unsual Transacations and Business Incidents</p>
+    </div>
+    <div>
+        <section>
+            <div class="container py-5">
+                <!---- First Box file upload section-->
+                <div class="card shadow-sm mb-5">
+                    <div class="card-body">
+                        <h6 class="card-title mx-3 black-clr fs-16 f-700">Upload CSV FIle</h6>
+                        <div class="dashed-bg p-4 my-4 mx-3">
+                            <div class="d-flex justify-content-center">
+                                <div class="bg-color px-5 mb-4">
+                                    <div class="file-upload-wrapper">
+                                        <img src="assets/images/Fileupload.png" alt="FileUpload"
+                                            style="margin-left: 67px;">
+                                        <input name="file-upload-field" type="file" class="file-upload-field" value="">
+                                        <br>
+                                        <p id="ulpoad-info">or drag and drop a file</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="f-14 py-2 upload-btn f-700">Upload</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--second box --->
+
+                <div class="container-boxes">
+                    <!--thied box --->
+                    <div class="card shadow-sm ">
+                        <div class="form-bg">
+                            <form>
+                              
+                                <div class="container p-4">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <span class="fs-14 black-clr field-label">Column Header Given</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="inlineCheckbox1" value="option1">
+                                                        <label class="form-check-label fs-14 black-clr"
+                                                            for="inlineCheckbox1">Yes</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input fs-14 black-clr" type="checkbox"
+                                                            id="inlineCheckbox2" value="option2">
+                                                        <label class="form-check-label" for="inlineCheckbox2">No</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="form-group row mt-4">
+                                                    <label for="inputPassword" class="col-4 col-form-label fs-14 black-clr field-label">Field Separator
+                                                        </label>
+                                                    <div class="col-7">
+                                                        <input type="text" class="form-control form-control-sm" id="inputPassword">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label for="inputPassword" class="col-4 col-form-label fs-14 black-clr">#Rows</label>
+                                                <div class="col-8">
+                                                    <input type="text" class="form-control form-control-sm" id="rows">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mt-4">
+                                                <label for="inputPassword" class="col-4 col-form-label fs-14 black-clr">#Columns</label>
+                                                <div class="col-8">
+                                                    <input type="text" class="form-control form-control-sm" id="columns">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </form>
+                        </div>
+                        <div data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/toggle.png"
+                                class="float-end px-4 pb-3" style="cursor: pointer;"></div>
+                        <div class="table-responsive mx-4 " style="max-height: 262px;">
+                            <table class="table table-bordered tb-detals text-end border-light-blue">
+                                <thead>
+                                    <tr class="align-left bg-light-blue blue-color f-600">
+                                        <th scope="col">ID Number</th>
+                                        <th scope="col ">Clump Thickness</th>
+                                        <th scope="col">Uniformity of Cell Size</th>
+                                        <th scope="col">Uniformity of Cell Shape</th>
+                                        <th scope="col">Marginal Adhesion</th>
+                                        <th scope="col">Single Epithelial Cell Sizee</th>
+                                        <th scope="col">Uniformity of Cell Shape</th>
+                                        <th scope="col">Single Epithelial Cell Sizee</th>
+                                        <th scope="col">Uniformity of Cell Shape</th>
+                                        <th scope="col">Single Epithelial Cell Sizee</th>
+                                        <th scope="col">Uniformity of Cell Shape</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="f-600">
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="f-600">
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+
+
+
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <nav class=" py-2">
+                            <nav class=" py-3">
+                                <ul class="pagination pagination-sm float-end mx-4">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1">1</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                </ul>
+                            </nav>
+                        </nav>
+                    </div>
+                    <div class="py-5">
+                        <!--fourth box --->
+                        <div class="card shadow-sm ">
+                            <div class="py-4 px-4">
+                                <div class="col-12 card-body">
+                                    <!-- <div class="card-body px-3 pt-4 lh-1"> -->
+                                        <h6 class="card-title f-600 black-clr">Columns not to be used for Computation</h6>
+                                        <p class="fs-14 px-1 black-clr">Press Ctrl to Select Multiple Items</p>
+                                    </div>
+                            
+                                <div class="container pb-4">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <div class="client-list">
+                                                <ul class="list pt-1">
+                                                    <li>Uniformity of Cell Shape</li>
+                                                    <li>Marginal Adhesion</li>
+                                                    <li>Single Epithelial Cell Size</li>
+                                                    <li>Bare Nuclei</li>
+                                                    <li>Bland Chromatin</li>
+                                                    <li>Normal Nucleoli</li>
+                                                    <li>Mitoses</li>
+                                                    <li>Class (2 for benign 4 malignant)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="client-icons">
+                                                <div class="arrow-btns">
+                                                    <button><i class="p-2 fa fa-angle-left"></i></button>
+                                                </div>
+                                                <div class="arrow-btns">
+                                                    <button><i class="p-2 fa fa-angle-double-right"></i></button>
+                                                </div>
+                                                <div class="arrow-btns">
+                                                    <button><i class="p-2 fa fa-angle-right"></i></button>
+                                                </div>
+                                                <div class="arrow-btns">
+                                                    <button><i class="p-2 fa fa-angle-double-left"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="client-list">
+                                                <ul class="list pt-1">
+                                                    <li>Uniformity of Cell Shape</li>
+                                                    <li>Marginal Adhesion</li>
+                                                    <li>Single Epithelial Cell Size</li>
+                                                    <li>Bare Nuclei</li>
+                                                    <li>Bland Chromatin</li>
+                                                    <li>Normal Nucleoli</li>
+                                                    <li>Mitoses</li>
+                                                    <li>Class (2 for benign 4 malignant)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- 5th box yes or no options-->
+                    <!----new code for 5th box-->
+                    <div class="card shadow-sm ">
+
+                        <div class="py-4 px-4">
+
+                            <form>
+
+                                <div class="container p-1">
+
+                                    <div class="col-12"><p class="fw-600">Ignoring column for Computation</p></div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-6">
+
+                                            <div class="row">
+
+                                                <div class="col-8">
+
+                                                    <input type="text" class="form-control form-control-sm" id="inputPassword">
+
+                                                </div>
+
+                                            </div>                                           
+
+                                            <div class="form-check-inline pt-4">
+
+                                                <div class="form-check form-check-inline">
+
+                                                    <input class="form-check-input" type="radio" id="rows1" value="option1">
+
+                                                    <label class="form-check-label fw-600 fs-14 black-clr" for="rows1">Number of Unusual Rows</label>
+
+                                                </div>
+
+                                                <div class="form-check form-check-inline">
+
+                                                    <input class="form-check-input" type="radio" id="rows2" value="option2">
+
+                                                    <label class="form-check-label fw-600 fs-14 black-clr" for="rows2">Percentage of Rows</label>
+
+                                                </div>
+
+                                            </div>
+
+                                                                                 
+
+                                            <div>
+
+                                                <div class="form-group row pt-4">
+
+                                                    <label for="inputPassword" class="col-5 fw-600 fs-14 black-clr">Show number of unsual rows</label>
+
+                                                    <div class="col-3">
+
+                                                        <input type="text" class="form-control form-control-sm" id="inputPassword">
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-6">
+
+                                            <div class="row">                                                
+
+                                                <div class="col-6">
+
+                                                    <input class="form-check-input" type="checkbox" id="column1" value="option1">
+
+                                                    <label class="form-check-label fs-14 fw-600 black-clr ml-15" for="column1">Show key column</label>
+
+                                                </div>
+
+                                                <div class="col-6">                                                        
+
+                                                    <label for="column2" class="fs-14 fw-600 black-clr">Key columns</label>
+
+                                                    <input type="text" class="col-6 ml-15" id="column2" value="3">                                                   
+
+                                                </div>                                               
+
+                                            </div>
+
+                                            <div class="form-group row pt-4">
+
+                                                <label for="inputPassword" class="col-3 fw-600 fs-14 black-clr">Algorithm Type</label>
+
+                                                <div class="col-9">
+
+                                                    <select class="form-select" aria-label="Default select example">
+
+                                                        <option selected>Extreme value based</option>
+
+                                                        <option value="1">One</option>
+
+                                                        <option value="2">Two</option>
+
+                                                        <option value="3">Three</option>
+
+                                                      </select>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+                    <!---end to here-->
+                    <div class="py-3 my-4 text-center bg bg-white border-hash">
+                        <p class="exclamation-info black-clr"><img src="assets/images/exclamation.png"> Note: We
+                            display (at most) first 100 rows and First 125 and Last 125 columns only.</p>
+                    </div>
+                    <div class="d-flex justify-content-center pt-5">
+                        <div class="icon-btns">
+                            <button>Result</button>
+                        </div>
+                        <div class="icon-btns">
+                            <button>Help</button>
+                        </div>
+                        <div class="icon-btns">
+                            <button>Submit</button>
+                        </div>
+                        <div class="icon-btns" id="close-btn">
+                            <button>Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+<app-footer></app-footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive mx-4 " style="max-height: 423px;">
+                    <table class="table table-bordered tb-detals text-end border-light-blue">
+                        <thead>
+                            <tr class="align-left bg-light-blue blue-color f-600">
+                                <th scope="col">ID Number</th>
+                                <th scope="col ">Clump Thickness</th>
+                                <th scope="col">Uniformity of Cell Size</th>
+                                <th scope="col">Uniformity of Cell Shape</th>
+                                <th scope="col">Marginal Adhesion</th>
+                                <th scope="col">Single Epithelial Cell Sizee</th>
+                                <th scope="col">Uniformity of Cell Shape</th>
+                                <th scope="col">Single Epithelial Cell Sizee</th>
+                                <th scope="col">Uniformity of Cell Shape</th>
+                                <th scope="col">Single Epithelial Cell Sizee</th>
+                                <th scope="col">Uniformity of Cell Shape</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="f-600">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="f-600">
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+
+
+
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>

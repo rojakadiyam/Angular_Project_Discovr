@@ -1,203 +1,100 @@
-<div *ngIf="hoemecontent">
-<header id="header-background">
-    <div class=" navbar-dark fixed-top add_bg" (scroll)="onWindowScroll();">
-        <div class="container-fluid py-3 px-0">
-            <div class="top-header">
-
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid px-4"><a class="navbar-brand" href="#"> <img
-                                src="../../../assets/images/logo.png" class="right-logo"> </a><button
-                            class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class=" bar-icon">
-                                <i class="fa fa-bars text-dark "></i></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <div class="searchbar search-mob-view">
-                                <input type="text" class="form-control" placeholder="Search">
-                               <span class="search-icon"> <i class="fa fa-search"></i></span>
-                            </div>
-                            <ul class="navbar-nav m-auto navmenu">
-                                <li class="nav-item"><a class="nav-link nav-menu-link-hover" href="#">Product</a>
-                                    <div class="drop-menu products-nav">
-
-                                        <div class="container">
-
-                                            <div class="row products-dd">
-
-                                                <div class="col-sm-4">
-
-                                                    <h6 class="fw-bold">PAYMENTS</h6>
-
-                                                    <ul>
-
-                                                        <li><a href="#">Payments</a>
-
-                                                        <p>Online Payments</p></li>
-
-                                                        <li><a href="#">Checkout</a>
-
-                                                        <p>Pre-built payments page</p></li>
-
-                                                        <li><a href="#">Elements</a>
-
-                                                        <p>Customixzable payment UIs</p></li>
-
-                                                        <li><a href="#">Payment Links</a>
-
-                                                        <p>No-code payments</p></li>
-
-                                                        <li><a href="#">Connect</a>
-
-                                                        <p>Payment for platforms</p></li> 
-
-                                                    </ul>
-
-                                                </div>
-
-                                                <div class="col-sm-4">
-
-                                                    <h6 class="fw-bold">FINANCIAL SERVICES</h6>
-
-                                                    <ul>
-
-                                                        <li><a href="#">Issuing</a>
-
-                                                        <p>Card creation</p></li>
-
-                                                    </ul>
-
-                                                </div>
-
-                                                <div class="col-sm-4">
-
-                                                    <h6 class="fw-bold">BUSINESS OPERATIONS</h6>
-
-                                                    <ul>
-
-                                                        <li><a href="#">Radar</a>
-
-                                                        <p>Fraud & risk management</p></li>
-
-                                                        <li><a href="#">Sigma</a>
-
-                                                        <p>Custom Reports</p></li>
-
-                                                        <li><a href="#">Atlas</a>
-
-                                                        <p>Startup Incorporation</p></li>
-
-                                                       <li><a href="#">Climate</a>
-
-                                                        <p>Carbon Removal</p></li>
-
-                                                        <li><a href="#">Tax</a>
-
-                                                        <p>Online identity verification</p></li> 
-
-                                                    </ul>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>                                       
-
-                                    </div>
-                                </li>
-                                <li class="nav-item"><a class="nav-link nav-menu-link-hover" href="#">Use Cases</a>
-
-                                    <div class="drop-menu usecases-nav">
-
-                                       
-
-                                        <div class="col-sm-12 usecases-dd">
-
-                                            <ul>
-
-                                                <li><a href="#">Ecommerce</a>
-
-                                                <p>Unify online and in-person payments</p></li>
-
-                                                <li><a href="#">SaaS</a>
-
-                                                <p>Managae recuring billing and subscriptions</p></li>
-
-                                                <li><a href="#">Marketplaces</a>
-
-                                                <p>Payout globally and facilitate multiparty payments</p></li>
-
-                                                <li><a href="#">Platforms</a>
-
-                                                <p>Let customers accepts payments within your platform</p></li>
-
-                                                <li><a href="#">Create Economy</a>
-
-                                                <p>Facilitate on-platform payments pay creators globally</p></li> 
-
-                                            </ul>
-
-                                        </div>
-
-                                                                                  
-
-                                    </div>
-                                                                               
-
-                               
-                                </li>
-                                <li class="nav-item nav-item3"><a class="nav-link nav-menu-link-hover"
-                                        href="#">Developers</a>
-                                        <div class="drop-menu developers-nav">                                     
-
-                                            <div class="col-sm-12 developers-dd">
+<div>
+    <header id="header-background">
+        <div class=" navbar-dark fixed-top add_bg" (scroll)="onWindowScroll();">
+            <div class="container-fluid py-3 px-0">
+                <div class="top-header">
     
-                                                <a href="javascript:void(0)">
-    
-                                                <h6>Document</h6>
-    
-                                                <p>Start integratinf Discovr's products and tools</p>
-    
-                                            </a>
-    
-                                            </div> 
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid px-4"><a class="navbar-brand mb-2"> <img
+                                    src="assets/images/logo.png" class="right-logo"> </a><button
+                                class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class=" bar-icon">
+                                    <i class="fa fa-bars text-dark "></i></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="searchbar search-mob-view">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                   <span class="search-icon"> <i class="fa fa-search"></i></span>
+                                </div>
+                                <ul class="navbar-nav m-auto navmenu">
+                                    <li class="nav-item"><a class="nav-link nav-menu-link-hover" >Product</a>
+                                        <div class="drop-menu drop-menu-res products-nav">
     
                                             <div class="container">
     
-                                                <div class="row developers-sub-dd">
+                                                <div class="row products-dd">
     
-                                                    <div class="col-sm-6">
+                                                    <div class="col-sm-4">
     
-                                                        <h6 class="fw-bold">GET STARTED</h6>
+                                                        <h6 class="fw-bold">PAYMENTS</h6>
     
-                                                        <ul class="developers-list">
+                                                        <ul>
     
-                                                            <li><a href="#">Prebuilt checkout</a></li>
+                                                            <li><a >Payments</a>
     
-                                                            <li><a href="#">libraries and SDKs</a></li>
+                                                            <p>Online Payments</p></li>
     
-                                                            <li><a href="#">plugins</a></li>
+                                                            <li><a >Checkout</a>
     
-                                                            <li><a href="#">Code samples</a></li>
+                                                            <p>Pre-built payments page</p></li>
+    
+                                                            <li><a >Elements</a>
+    
+                                                            <p>Customixzable payment UIs</p></li>
+    
+                                                            <li><a >Payment Links</a>
+    
+                                                            <p>No-code payments</p></li>
+    
+                                                            <li><a >Connect</a>
+    
+                                                            <p>Payment for platforms</p></li> 
     
                                                         </ul>
     
                                                     </div>
     
-                                                    <div class="col-sm-6">
+                                                    <div class="col-sm-4">
     
-                                                       <h6 class="fw-bold">GUIDES</h6>
+                                                        <h6 class="fw-bold">FINANCIAL SERVICES</h6>
     
-                                                        <ul class="developers-list">
+                                                        <ul>
     
-                                                            <li><a href="#">Accept online payments</a></li>
+                                                            <li><a >Issuing</a>
     
-                                                            <li><a href="#">Manage subscriptions</a></li>
+                                                            <p>Card creation</p></li>
     
-                                                            <li><a href="#">Send payments</a></li>
+                                                        </ul>
     
-                                                            <li><a href="#">Set up in-person payments</a></li>                                                        
+                                                    </div>
+    
+                                                    <div class="col-sm-4">
+    
+                                                        <h6 class="fw-bold">BUSINESS OPERATIONS</h6>
+    
+                                                        <ul>
+    
+                                                            <li><a href="#">Radar</a>
+    
+                                                            <p>Fraud & risk management</p></li>
+    
+                                                            <li><a href="#">Sigma</a>
+    
+                                                            <p>Custom Reports</p></li>
+    
+                                                            <li><a href="#">Atlas</a>
+    
+                                                            <p>Startup Incorporation</p></li>
+    
+                                                           <li><a href="#">Climate</a>
+    
+                                                            <p>Carbon Removal</p></li>
+    
+                                                            <li><a href="#">Tax</a>
+    
+                                                            <p>Online identity verification</p></li> 
     
                                                         </ul>
     
@@ -205,429 +102,490 @@
     
                                                 </div>
     
-                                                <div class="row developers-dd-footer">
-    
-                                                    <div class="col-sm-6 developers-ft">
-    
-                                                        <ul>
-    
-                                                            <li><a href="#">FULL API reference</a></li>
-    
-                                                            <li><a href="#">Support</a></li>
-    
-                                                        </ul>
-    
-                                                    </div>
-    
-                                                    <div class="col-sm-6">
-    
-                                                        <ul>
-    
-                                                            <li><a href="#">API status</a></li>
-    
-                                                            <li><a href="#">API changelog</a></li>
-    
-                                                        </ul>
-    
-                                                    </div>
-    
-                                                </div>
-    
-                                            </div>                                
+                                            </div>                                       
     
                                         </div>
-                                </li>
-                                <li class="nav-item"><a class="nav-link nav-menu-link-hover" href="#">Company</a>
-                                <div class="drop-menu company-nav">
-
-                                        <div class="container">
-
-                                            <div class="row company-dd">
-
-                                                <div class="col-sm-6">
-
-                                                    <ul>
-
-                                                        <li><h6><a href="#">About Discovr</a></h6></li>
-
-                                                        <li><h6><a href="#">Customers</a></h6></li>
-
-                                                        <li><h6><a href="#">Enterprise</a></h6></li>
-
-                                                        <li><h6><a href="#">Jobs</a></h6></li>
-
-                                                    </ul>
-
-                                                </div>
-
-                                                <div class="col-sm-6">
-
-                                                    <ul>
-
-                                                        <li><h6><a href="#">Newsroom</a></h6></li>
-
-                                                        <li><h6><a href="#">Parteners</a></h6></li>
-
-                                                        <li><h6><a href="#">Sessions</a></h6></li>                                                      
-
-                                                    </ul>
-
-                                                </div>
-
-                                            </div>
-
- 
-
-                                            <div class="col-sm-12 company-dd-footer">
-
-                                                <a href="javascript:void(0)">
-
-                                                <h6>From the blog</h6></a>
-
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link nav-menu-link-hover">Use Cases</a>
+                                        <div class="drop-menu drop-menu-res usecases-nav">
+                                            <div class="col-sm-12 usecases-dd">
                                                 <ul>
-
-                                                    <li><a href="#">Discor's payment APIs: the first ten years</a></li>
-
-                                                    <li><a href="#">European payment methods available worldwide</a></li>
-
-                                                    <li><a href="#">We built Checkout so you don't have to</a></li>
-
+                                                    <li><a>Finance and Insurance</a></li>
+                                                    <li><a>IT and ITES</a></li>
+                                                    <li><a>Manufacturing and Retail </a> </li>
+                                                    <li><a>E-commerce  </a></li>
+                                                    <li><a>Telecommunication  </a> </li> 
+                                                    <li><a>Healthcare and Pharmaceutical</a></li> 
+                                                    <li><a>Air and Transportation</a></li> 
+                                                    <li><a>Governance Risk and Compliance</a></li> 
                                                 </ul>
-
+                                            </div>                                                                                 
+                                        </div>                             
+                                    </li>
+                                    <li class="nav-item nav-item3"><a class="nav-link nav-menu-link-hover"
+                                            href="#">Developers</a>
+                                            <div class="drop-menu drop-menu-res developers-nav">                                     
+    
+                                                <div class="col-sm-12 developers-dd">
+        
+                                                    <a href="javascript:void(0)">
+        
+                                                    <h6>Document</h6>
+        
+                                                    <p>Start integratinf Discovr's products and tools</p>
+        
+                                                </a>
+        
+                                                </div> 
+        
+                                                <div class="container">
+        
+                                                    <div class="row developers-sub-dd">
+        
+                                                        <div class="col-sm-6">
+        
+                                                            <h6 class="fw-bold">GET STARTED</h6>
+        
+                                                            <ul class="developers-list">
+        
+                                                                <li><a href="#">Prebuilt checkout</a></li>
+        
+                                                                <li><a href="#">libraries and SDKs</a></li>
+        
+                                                                <li><a href="#">plugins</a></li>
+        
+                                                                <li><a href="#">Code samples</a></li>
+        
+                                                            </ul>
+        
+                                                        </div>
+        
+                                                        <div class="col-sm-6">
+        
+                                                           <h6 class="fw-bold">GUIDES</h6>
+        
+                                                            <ul class="developers-list">
+        
+                                                                <li><a href="#">Accept online payments</a></li>
+        
+                                                                <li><a href="#">Manage subscriptions</a></li>
+        
+                                                                <li><a href="#">Send payments</a></li>
+        
+                                                                <li><a href="#">Set up in-person payments</a></li>                                                        
+        
+                                                            </ul>
+        
+                                                        </div>
+        
+                                                    </div>
+        
+                                                    <div class="row developers-dd-footer">
+        
+                                                        <div class="col-sm-6 developers-ft">
+        
+                                                            <ul>
+        
+                                                                <li><a href="#">FULL API reference</a></li>
+        
+                                                                <li><a href="#">Support</a></li>
+        
+                                                            </ul>
+        
+                                                        </div>
+        
+                                                        <div class="col-sm-6">
+        
+                                                            <ul>
+        
+                                                                <li><a href="#">API status</a></li>
+        
+                                                                <li><a href="#">API changelog</a></li>
+        
+                                                            </ul>
+        
+                                                        </div>
+        
+                                                    </div>
+        
+                                                </div>                                
+        
                                             </div>
-
-                                           
-
-                                        </div>           
-
-                                        
-
-                                    </div>
-                                </li>
-                                <li class="nav-item"><a class="nav-link nav-menu-link-hover" href="#">Pricing</a></li>
-                            </ul>
-                            <div class="searchbar search-desk-view">
-                                <input type="text" class="form-control" placeholder="Search">
-                               <span class="search-icon"> <i class="fa fa-search"></i></span>
-                            </div>
-                            <span class="sign-in-btn">
-                                <button (click)="login()">Sign in</button>
-                            </span>
-                        </div>
-                    </div>
-                </nav>
-
-
-
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="body-header">
-            <div class="row">
-                <div class="col-md-6 my-auto">
-                    <div class="left-content">
-                        <div class="mob-view">
-                            <div class="right-img">
-                                <img src="assets/images/Group.png" />
-                            </div>
-                        </div>
-                        <p class="special-header fs-1 pb-1">Big <span class="red-clr">Data</span> Solutions</p>
-
-                        <p class="segoe-f">DiscovR is the future of payments, with the easiest integration, feature-rich
-                            interface, and
-                            best-in-class efficiency. DiscovR's software and APIs are the gold standard for
-                            sending and
-                            receiving payments and managing all your business transactions online. </p>
-                        <div class="d-flex w-100 gap-2 py-4 readmorebtns">
-                            <button class="btn btn-dark read-more-btn" type="button">Read More</button>
-                            <p class="p-0 m-0"><a href="" class="text-decoration-none red-clr anctag"
-                                    style="position: relative;left: 26px;top: 12px;">Contact Sales <i
-                                        class='fas fa-greater-than' style="font-size: 13px;"></i></a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 desk-view my-auto pb-1 pt-5">
-                    <div class="right-img">
-                        <img src="assets/images/compress.gif" />
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</header>
-<section class="white-bg">
-    <div class="container">
-        <div class="data-section pt-5">
-            <div class="row">
-                <div class="col-md-8 py-4">
-                    <div class="parent-info">
-                        <div class="mob-view">
-                            <div class="data-right-img1 text-center">
-                                <img src="assets/images/data.png" width="80%" alt="data img" />
-                            </div>
-                        </div>
-                        <div class="para">
-                            <h5 class="red-clr font-17 f-poppi">End To End Payments</h5>
-                            <p class="font-22 fs-5">We Accept ALL Payment Modes! </p>
-                            <p class="fw-normal fs-6 segoe-f">DiscovR provides the most extensive set of payment
-                                methods.
-                                Domestic and International
-                                Credit/Debit cards, Netbanking, UPI, Mobile Wallets the list is LONG! We have everything
-                                you need to accept payments from anywhere in the world. </p>
-
-                        </div>
-
-                        <div class="row">
-                            <div class=" col-lg-6 col-sm-6 col-md-6 pt-4">
-                                <div class="child-info">
-                                    <p class="red-clr font-17">Developer Friendly </p>
-                                    <p class="black-clr segoe-f">Easy-to-use, powerful and straight-forward APIs, plugin
-                                        and
-                                        libraries for all prominent languages. Block out the noise, just concentrate on
-                                        building awesome products. </p>
-
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link nav-menu-link-hover" href="#">Company</a>
+                                    <div class="drop-menu drop-menu-res company-nav">
+    
+                                            <div class="container">
+    
+                                                <div class="row company-dd">
+    
+                                                    <div class="col-sm-6">
+    
+                                                        <ul>
+    
+                                                            <li><h6><a href="#">About Discovr</a></h6></li>
+    
+                                                            <li><h6><a href="#">Customers</a></h6></li>
+    
+                                                            <li><h6><a href="#">Enterprise</a></h6></li>
+    
+                                                            <li><h6><a href="#">Jobs</a></h6></li>
+    
+                                                        </ul>
+    
+                                                    </div>
+    
+                                                    <div class="col-sm-6">
+    
+                                                        <ul>
+    
+                                                            <li><h6><a href="#">Newsroom</a></h6></li>
+    
+                                                            <li><h6><a href="#">Parteners</a></h6></li>
+    
+                                                            <li><h6><a href="#">Sessions</a></h6></li>                                                      
+    
+                                                        </ul>
+    
+                                                    </div>
+    
+                                                </div>
+    
+     
+    
+                                                <div class="col-sm-12 company-dd-footer">
+    
+                                                    <a href="javascript:void(0)">
+    
+                                                    <h6>From the blog</h6></a>
+    
+                                                    <ul>
+    
+                                                        <li><a href="#">Discor's payment APIs: the first ten years</a></li>
+    
+                                                        <li><a href="#">European payment methods available worldwide</a></li>
+    
+                                                        <li><a href="#">We built Checkout so you don't have to</a></li>
+    
+                                                    </ul>
+    
+                                                </div>
+    
+                                               
+    
+                                            </div>           
+    
+                                            
+    
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link nav-menu-link-hover" href="#">Pricing</a></li>
+                                </ul>
+                                <div class="searchbar search-desk-view">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                   <span class="search-icon"> <i class="fa fa-search"></i></span>
                                 </div>
-                            </div>
-                            <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
-                                <div class="child-info">
-                                    <p class="red-clr font-17">Data Leverage</p>
-                                    <p class="black-clr segoe-f">Utilize all the data we collect for you to make the
-                                        best and
-                                        informed decisions for your business. Get reports and statistics on payments,
-                                        settlements, and refunds. </p>
-
-                                </div>
+                                <span class="sign-in-btn">
+                                    <button routerLink="/login">Sign in</button>
+                                </span>
                             </div>
                         </div>
-                        <div class="read-btn pb-5 pt-5"><button class="btn btn-dark read-more-btn">Read
-                                More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-auto desk-view">
-                    <div class="data-right-img1 text-center">
-                        <img src="assets/images/data.png" width="80%" alt="data img" />
-                    </div>
+                    </nav>
+    
+    
+    
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<div style="background: #f2f2f2;">
-    <section class="bg-hash" style="background-image: linear-gradient(45deg, #4E5861, #4E5861);
-transform: skewY(-7deg);">
-        <div class="sub-trans" style="transform: skewY(7deg);">
-            <div class="container">
-                <div class="data-section pt-5">
-                    <div class="row">
-                        <div class="col-md-8 py-4">
-                            <div class="parent-info pt-5">
-                                <div class="mob-view">
-                                    <div class="data-right-img1 text-center">
-                                        <img src="assets/images/client.png" id="right-side-image" class="m-auto"
-                                            width="80%" alt="data img" />
-                                    </div>
+        <div class="container">
+            <div class="body-header">
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <div class="left-content">
+                            <div class="mob-view">
+                                <div class="right-img">
+                                    <img src="assets/images/compress.gif" />
                                 </div>
-                                <div class="para pt-5">
-                                    <h5 class="text-white f-poppi font-17">Why Us </h5>
-                                    <p class="text-white fs-5">DiscovR Seamless Transactions!</p>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
-                                        <div class="child-info">
-                                            <p class="text-white f-poppi">Secure </p>
-                                            <p class="text-white segoe-f">We have made your security our priority. We
-                                                conduct regular
-                                                and thorough audits to ensure that your data is always secure. Our
-                                                internal
-                                                security team works around the clock to ensure that your gateway is
-                                                safe,
-                                                secure, and fraud-free! </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
-                                        <div class="child-info">
-                                            <p class="text-white f-poppi">Reliable</p>
-                                            <p class="text-white segoe-f">Your business is in safe hands and so is your
-                                                money. DiscovR
-                                                takes pride in being one of the most trustworthy payment platforms.
-                                                We've got
-                                                you covered, whether it's managing your marketplace, automating bank
-                                                transfers,
-                                                or sharing invoices.
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
-                                        <div class="child-info">
-                                            <p class="text-white f-poppi">Easy Integration </p>
-                                            <p class="text-white segoe-f">We make payment integration on the web and on
-                                                mobile look
-                                                easy. Allow us to handle the complexity of payment validation, error
-                                                management,
-                                                and the retry process while you discovR the potential of easy
-                                                integration. </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
-                                        <div class="child-info">
-                                            <p class="text-white f-poppi">Simple </p>
-                                            <p class="text-white segoe-f">Yes, it is as simple as it appears. When it
-                                                comes to managing
-                                                payments, we recognize that speed and convenience are critical. That's
-                                                why we've
-                                                DicovR'd the best way to give you the finest interface and usability
-                                                possible.
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="read-btn pb-5 pt-5"><button class="btn btn-dark read-white-btn">Read
-                                        More</button>
-                                </div>
+                            </div>
+                            <p class="special-header fs-1 pb-1">Big <span class="red-clr">Data</span> Solutions</p>
+    
+                            <p class="segoe-f">DiscovR is the future of payments, with the easiest integration, feature-rich
+                                interface, and
+                                best-in-class efficiency. DiscovR's software and APIs are the gold standard for
+                                sending and
+                                receiving payments and managing all your business transactions online. </p>
+                                <div id="hide-btns">
+                            <div class="d-flex w-100 gap-2 py-4 readmorebtns">
+                                <button class="btn btn-dark read-more-btn" type="button">Read More</button>
+                                <p class="p-0 m-0"><a href="" class="text-decoration-none red-clr anctag"
+                                        style="position: relative;left: 26px;top: 7px;">Contact Sales <i
+                                            class='greater-than-icon'></i></a></p>
+                            </div>
                             </div>
                         </div>
-                        <div class="col-md-4  my-auto pt-5 desk-view">
-                            <div class="data-right-img">
-                                <img src="assets/images/client.png" id="right-side-image" class="w-100"
-                                    alt="data img" />
+                    </div>
+                    <div class="col-md-6 desk-view my-auto pb-1 pt-5">
+                        <div class="right-img">
+                            <img src="assets/images/compress.gif" />
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </header>
+    <section class="white-bg">
+        <div class="container">
+            <div class="data-section pt-5">
+                <div class="row">
+                    <div class="col-md-8 py-4">
+                        <div class="parent-info">
+                            <div class="mob-view">
+                                <div class="data-right-img1 text-center">
+                                    <img src="assets/images/data.png" width="80%" alt="data img" />
+                                </div>
                             </div>
-                            <!-- <div class="right-side-image3"><img src="assets/images/Frame.png" class=" float-end"/></div> -->
+                            <div class="para">
+                                <h5 class="red-clr font-17 f-poppi">End To End Payments</h5>
+                                <p class="font-22 fs-5">We Accept ALL Payment Modes! </p>
+                                <p class="fw-normal fs-6 segoe-f">DiscovR provides the most extensive set of payment
+                                    methods.
+                                    Domestic and International
+                                    Credit/Debit cards, Netbanking, UPI, Mobile Wallets the list is LONG! We have everything
+                                    you need to accept payments from anywhere in the world. </p>
+    
+                            </div>
+    
+                            <div class="row">
+                                <div class=" col-lg-6 col-sm-6 col-md-6 pt-4">
+                                    <div class="child-info">
+                                        <p class="red-clr font-17">Developer Friendly </p>
+                                        <p class="black-clr segoe-f">Easy-to-use, powerful and straight-forward APIs, plugin
+                                            and
+                                            libraries for all prominent languages. Block out the noise, just concentrate on
+                                            building awesome products. </p>
+    
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
+                                    <div class="child-info">
+                                        <p class="red-clr font-17">Data Leverage</p>
+                                        <p class="black-clr segoe-f">Utilize all the data we collect for you to make the
+                                            best and
+                                            informed decisions for your business. Get reports and statistics on payments,
+                                            settlements, and refunds. </p>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="read-btn pb-5 pt-5"><button class="btn btn-dark read-more-btn">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-auto desk-view">
+                        <div class="data-right-img1 text-center">
+                            <img src="assets/images/data.png" width="80%" alt="data img" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-</div>
-<section class="back white-bg">
-    <!-- <div class="right-side-image"><img src="assets/images/Frame.png" class="w-100 float-end"/></div> -->
-    <div class="container">
-        <div class="data-section pt-5">
-
-            <div class="row">
-                <div class="col-md-12 py-4">
-
-                    <div class="parent-info pt-5">
-                        <div class="para pt-4">
-                            <h5 class="red-clr font-17">DiscovR The World </h5>
-                            <p class="font-22 fs-5">We Support You Wherever You Go! </p>
-                        </div>
+    <div style="background: #f2f2f2;">
+        <section class="bg-hash" style="background-image: linear-gradient(45deg, #4E5861, #4E5861);
+    transform: skewY(-7deg);">
+            <div class="sub-trans" style="transform: skewY(7deg);">
+                <div class="container">
+                    <div class="data-section pt-5">
                         <div class="row">
-                            <div class=" col-lg-4 col-sm-6 col-md-4  pt-4">
-                                <div class="child-info">
-                                    <p class="red-clr font-17">Borderless</p>
-                                    <p class="black-clr segoe-f">Business that knows no bounds. Without worry, move your
-                                        money
-                                        across oceans and continents. Leave the rest to us while you concentrate on
-                                        creating great things.</p>
+                            <div class="col-md-8 py-4">
+                                <div class="parent-info pt-5">
+                                    <div class="mob-view">
+                                        <div class="data-right-img1 text-center">
+                                            <img src="assets/images/client.png" id="right-side-image" class="m-auto"
+                                                width="80%" alt="data img" />
+                                        </div>
+                                    </div>
+                                    <div class="para pt-5">
+                                        <h5 class="text-white f-poppi font-17">Why Us </h5>
+                                        <p class="text-white fs-5">DiscovR Seamless Transactions!</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
+                                            <div class="child-info">
+                                                <p class="text-white f-poppi">Secure </p>
+                                                <p class="text-white segoe-f">We have made your security our priority. We
+                                                    conduct regular
+                                                    and thorough audits to ensure that your data is always secure. Our
+                                                    internal
+                                                    security team works around the clock to ensure that your gateway is
+                                                    safe,
+                                                    secure, and fraud-free! </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
+                                            <div class="child-info">
+                                                <p class="text-white f-poppi">Reliable</p>
+                                                <p class="text-white segoe-f">Your business is in safe hands and so is your
+                                                    money. DiscovR
+                                                    takes pride in being one of the most trustworthy payment platforms.
+                                                    We've got
+                                                    you covered, whether it's managing your marketplace, automating bank
+                                                    transfers,
+                                                    or sharing invoices.
+    
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
+                                            <div class="child-info">
+                                                <p class="text-white f-poppi">Easy Integration </p>
+                                                <p class="text-white segoe-f">We make payment integration on the web and on
+                                                    mobile look
+                                                    easy. Allow us to handle the complexity of payment validation, error
+                                                    management,
+                                                    and the retry process while you discovR the potential of easy
+                                                    integration. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-6 col-md-6 pt-4">
+                                            <div class="child-info">
+                                                <p class="text-white f-poppi">Simple </p>
+                                                <p class="text-white segoe-f">Yes, it is as simple as it appears. When it
+                                                    comes to managing
+                                                    payments, we recognize that speed and convenience are critical. That's
+                                                    why we've
+                                                    DicovR'd the best way to give you the finest interface and usability
+                                                    possible.
+    
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="read-btn pb-5 pt-5"><button class="btn btn-dark read-white-btn">Read
+                                            More</button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class=" col-lg-4 col-sm-6 col-md-4  pt-4">
-                                <div class="child-info">
-                                    <p class="red-clr font-17">Transparent </p>
-                                    <p class="black-clr segoe-f">DiscovR what you pay. There are no hidden fees. You'll
-                                        have
-                                        complete control over your transactions. Pay just for the services you use and
-                                        receive real-time reporting. </p>
+                            <div class="col-md-4  my-auto pt-5 desk-view">
+                                <div class="data-right-img">
+                                    <img src="assets/images/client.png" id="right-side-image" class="w-100"
+                                        alt="data img" />
                                 </div>
-                            </div>
-                            <div class=" col-lg-4 col-sm-6 col-md-4  pt-4">
-                                <div class="child-info">
-                                    <p class="red-clr font-17">Performance</p>
-                                    <p class="black-clr segoe-f">There's always something new to discovR. We are a
-                                        platform
-                                        dedicated to improving our services and solutions constantly. New features, a
-                                        more user-friendly interface, and improved usability. An approach that puts the
-                                        user first. </p>
-                                </div>
+                                <!-- <div class="right-side-image3"><img src="assets/images/Frame.png" class=" float-end"/></div> -->
                             </div>
                         </div>
-                        <div class="read-btn pb-5 pt-5"><button class="btn btn-dark read-more-btn">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </div>
+    <section class="back white-bg">
+        <!-- <div class="right-side-image"><img src="assets/images/Frame.png" class="w-100 float-end"/></div> -->
+        <div class="container">
+            <div class="data-section pt-5">
+    
+                <div class="row">
+                    <div class="col-md-12 py-4">
+    
+                        <div class="parent-info pt-5">
+                            <div class="para pt-4">
+                                <h5 class="red-clr font-17">DiscovR The World </h5>
+                                <p class="font-22 fs-5">We Support You Wherever You Go! </p>
+                            </div>
+                            <div class="row">
+                                <div class=" col-lg-4 col-sm-6 col-md-4  pt-4">
+                                    <div class="child-info">
+                                        <p class="red-clr font-17">Borderless</p>
+                                        <p class="black-clr segoe-f">Business that knows no bounds. Without worry, move your
+                                            money
+                                            across oceans and continents. Leave the rest to us while you concentrate on
+                                            creating great things.</p>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-4 col-sm-6 col-md-4  pt-4">
+                                    <div class="child-info">
+                                        <p class="red-clr font-17">Transparent </p>
+                                        <p class="black-clr segoe-f">DiscovR what you pay. There are no hidden fees. You'll
+                                            have
+                                            complete control over your transactions. Pay just for the services you use and
+                                            receive real-time reporting. </p>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-4 col-sm-6 col-md-4  pt-4">
+                                    <div class="child-info">
+                                        <p class="red-clr font-17">Performance</p>
+                                        <p class="black-clr segoe-f">There's always something new to discovR. We are a
+                                            platform
+                                            dedicated to improving our services and solutions constantly. New features, a
+                                            more user-friendly interface, and improved usability. An approach that puts the
+                                            user first. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="read-btn pb-5 pt-5"><button class="btn btn-dark read-more-btn">Read More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-</section>
-<section>
-    <div class="container">
-        <div class="data-section pt-5">
-            <div class="row">
-                <div class="col-md-8 py-4">
-                    <div class="parent-info">
-                        <div class="mob-view">
-                            <div class="data-right-img1 text-center">
-                                <img src="assets/images/frame2.png" width="80%" alt="data img" />
-                            </div>
-                        </div>
-                        <div class="para">
-                            <h5 class="red-clr font-17 f-poppi">DiscovR Ease </h5>
-                            <p class="font-22 fs-5">Powerful APIs </p>
-                        </div>
-
-                        <div class="row">
-
-                            <div class=" col-lg-6 col-sm-6 col-md-6  pt-4">
-                                <div class="child-info">
-                                    <p class="red-clr font-17">Functionality </p>
-                                    <p class="black-clr segoe-f">DiscovR was created with developers in mind, and it
-                                        emphasizes
-                                        simplicity when it comes to implementing payment functions. With library keys
-                                        and integration tools, you can get up and running quickly.</p>
+    
+    </section>
+    <section>
+        <div class="container">
+            <div class="data-section pt-5">
+                <div class="row">
+                    <div class="col-md-8 py-4">
+                        <div class="parent-info">
+                            <div class="mob-view">
+                                <div class="data-right-img1 text-center">
+                                    <img src="assets/images/frame2.png" width="80%" alt="data img" />
                                 </div>
                             </div>
-                            <div class=" col-lg-6 col-sm-6 col-md-6 pt-4">
-                                <div class="child-info">
-                                    <p class="red-clr font-17 f-poppi">Management</p>
-                                    <p class="black-clr segoe-f">DiscovR's API and services can help you run your
-                                        business. Use
-                                        our machine learning models to combat fraud. Make your own regulations to suit
-                                        your company's needs. </p>
+                            <div class="para">
+                                <h5 class="red-clr font-17 f-poppi">DiscovR Ease </h5>
+                                <p class="font-22 fs-5">Powerful APIs </p>
+                            </div>
+    
+                            <div class="row">
+    
+                                <div class=" col-lg-6 col-sm-6 col-md-6  pt-4">
+                                    <div class="child-info">
+                                        <p class="red-clr font-17">Functionality </p>
+                                        <p class="black-clr segoe-f">DiscovR was created with developers in mind, and it
+                                            emphasizes
+                                            simplicity when it comes to implementing payment functions. With library keys
+                                            and integration tools, you can get up and running quickly.</p>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-6 col-sm-6 col-md-6 pt-4">
+                                    <div class="child-info">
+                                        <p class="red-clr font-17 f-poppi">Management</p>
+                                        <p class="black-clr segoe-f">DiscovR's API and services can help you run your
+                                            business. Use
+                                            our machine learning models to combat fraud. Make your own regulations to suit
+                                            your company's needs. </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="read-btn  pt-5 pb-2"><button class="btn btn-dark read-more-btn">Read More</button>
+                            <div class="read-btn  pt-5 pb-2"><button class="btn btn-dark read-more-btn">Read More</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 my-auto desk-view">
-                    <div class="data-right-img1 text-center">
-                        <img src="assets/images/frame2.png" width="80%" alt="data img" />
+                    <div class="col-md-4 my-auto desk-view">
+                        <div class="data-right-img1 text-center">
+                            <img src="assets/images/frame2.png" width="80%" alt="data img" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <app-footer></app-footer>
     </div>
-</section>
-<app-footer></app-footer>
-<!-- <footer class="pt-5">
-    <div class="container light-theam-white">
-        <div class="d-flex flex-wrap justify-content-center py-3 mb-4">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <img src="assets/images/logo.png" id="footer-img" />
-            </a>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link nav-menu-link-hover" aria-current="page">Product</a></li>
-                <li class="nav-item"><a href="#" class="nav-link nav-menu-link-hover">Use Cases</a></li>
-                <li class="nav-item"><a href="#" class="nav-link nav-menu-link-hover">Developers</a></li>
-                <li class="nav-item"><a href="#" class="nav-link nav-menu-link-hover">Company </a></li>
-                <li class="nav-item"><a href="#" class="nav-link nav-menu-link-hover">Pricing</a></li>
-            </ul>
-        </div>
-    </div>
-</footer> -->
-</div>
-<!-- <app-signing></app-signing> -->
+    

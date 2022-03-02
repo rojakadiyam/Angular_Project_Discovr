@@ -6,12 +6,12 @@
 	position: relative;
 	transition: all 0.5s ease-in-out 0s;
 }
-
-
-
-
-
-
+.greater-than-icon:before{
+	content: '>';
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 4px;
+}
 
 a.anctag:hover {
     color: rgb(8, 8, 8) !important;
@@ -25,13 +25,11 @@ a.anctag:hover {
 	background-size: cover;
 	height: auto;
 		max-height: 857px;
-		/* padding-bottom: 2rem; */
 }
     .sign-in-btn button {
         height: 38px;
         width: 101px;
         background: #FFFFFF;
-        /* box-shadow: 0px 4px 12px rgb(0 0 0 / 25%); */
 		box-shadow: 0px 2px 13px rgb(0 0 0 / 25%);
         border-radius: 20px;
         border: none;
@@ -43,7 +41,6 @@ a.anctag:hover {
     .special-header {
         font-family: Poppins;
         font-weight: bold;
-        /* font-size: 43px; */
         line-height: 43px;
       
     }
@@ -51,20 +48,8 @@ a.anctag:hover {
         width: 100%;
         padding: 50px 0px 0px 0px;
     }
-    /* .left-content p {
-        font-family: Segoe UI;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 21px;
-        color: #4E5861;
-        margin: 30px 0px 30px 0px;
-    } */
     .left-content {
-        /* position: relative;
-        margin: 0; */
 		padding: 138px 24px 0px 24px;
-        /* top: 23%; */
     }
     .para p {
         font-family: Poppins;
@@ -72,15 +57,11 @@ a.anctag:hover {
         font-weight: 600;
         font-size: 22px;
         line-height: 26px;
-        /* width: 629px; */
     }
     .child-info p{
-        /* width: 257px; */
 		margin-top: -12px;
     }
-    .data-section {
-        /* padding: 78px 0px 20px 0px; */
-    }.data-right-img img {
+    .data-right-img img {
         float: right;
     }
 
@@ -101,12 +82,7 @@ a.anctag:hover {
 	}
 
 
-	/* .back{
-		background-image: url("../../assets/images/Frame.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-position-y: bottom;
-} */
+	
 .top-sticky{
 	position: sticky;
     top: 0;
@@ -123,8 +99,6 @@ a.anctag:hover {
 	background-image: url("../../../assets/images/linear-background.png");
 background-repeat: no-repeat;
 background-size: cover;
-height: auto;
-    max-height: 857px;
 	padding-bottom: 2rem;
 }
 
@@ -147,52 +121,6 @@ height: auto;
 	transition: .3s;
 	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
-
-@media screen and (min-width: 375px) {
-	/* .left-content {
-		
-		padding: 138px 24px 0px 24px;
-	}} */}
-	@media screen and (min-width: 388px) {
-		.child-info p {
-			padding: 0px 24px 0px 24px;
-		}
-		.para {
-			padding: 0px 24px 0px 24px;
-		}
-		.read-btn {
-			padding-left: 23px;
-		}
-		
-	}
-
-
-	@media screen and (min-width: 375px) {
-		.child-info p {
-			padding: 0px 24px 0px 24px;
-		}
-		.para {
-			padding: 0px 24px 0px 24px;
-		}
-		.read-btn {
-			padding-left: 23px;
-		}
-		}
-	
-
-	@media screen and (min-width: 592px) {
-		.child-info p {
-			padding: 0px;
-		}
-		.para {
-			padding: 0px;
-		}
-		.read-btn {
-			padding-left: 0px;
-		}
-		
-	}
-
 	.changecolor{
 		background-color: #fff;
 		}
@@ -204,6 +132,15 @@ height: auto;
 			}
 			.desk-view{
 				display: none;
+			}#hide-btns{
+				display: none;
+			}.child-info p {
+				padding: 0px 24px 0px 24px;
+			}
+			.para {
+				padding: 0px 24px 0px 24px;
+			}.read-btn{
+				margin-left: 20px;
 			}
 		}
 		@media(min-width:768px){
@@ -212,6 +149,15 @@ height: auto;
 			}
 			.desk-view{
 				display: block;
+			}#hide-btns{
+				display: block;
+			}.child-info p {
+				padding: 0px;
+			}
+			.para {
+				padding: 0px;
+			}.read-btn{
+				margin-left: 0px;
 			}
 		}
 @media(max-width:767px){
@@ -246,13 +192,11 @@ height: auto;
 				display: block;
 			}.navbar-nav .nav-item {
 				font-size: 17px;
-				/* margin: 0px 2px; */
 				padding: 0px 0px 15px 0px;
 				
 			}span.sign-in-btn button {
 				margin-top: 11px;
 			}.searchbar{
-				/* margin: 1rem 0; */
 				margin: 1rem 0 10px -3px;
 			}
 		}
@@ -266,7 +210,6 @@ height: auto;
 		}
 		@media(max-width:767px){
 			.left-content {
-				/* padding: 0px 24px 0px 24px; */
 				padding: 63px 24px 0px 24px;
 			}
 			
@@ -278,11 +221,8 @@ height: auto;
 			}
 			.navbar-nav .nav-item {
 				padding: 0px 0px 15px 0px;
-				/* margin: 0px 2px; */
-				
 			}
 			.searchbar{
-				/* margin: 1rem 0; */
 				margin: 1rem 0 10px -3px;
 			}
 			.search-desk-view{
@@ -290,16 +230,13 @@ height: auto;
 			}
 		}
 		@media(min-width:992px){
-			.navbar{
-				/* background-color: #fff !important; */
-			}
+		
 			.search-mob-view{
 				display: none;
 			}
 		}
 		@media(min-width:768px){
 			.left-content {
-				/* padding: 0px 24px 0px 24px; */
 				padding: 138px 24px 0px 24px;
 			}				
 		}
@@ -312,13 +249,11 @@ height: auto;
 
 .searchbar{
 	position: relative;
-	/* margin-right: 2rem; */
 }
 		.searchbar input{
 			padding: 15px 40px 15px 20px;
 			border-radius: 50px;
     		border: 1px solid #4e5861;
-			/* padding: 0.2rem 0.6rem; */
 			position: relative;
 			color: #525252;
 			text-transform: uppercase;
@@ -332,568 +267,223 @@ height: auto;
 			position: absolute;
 			top: 9px;
 			right: 16px;
-			color: #040107;
-			
+			color: black;	
 		}
-
-
-
 		/* ------------------------ Hovarable Dropdown CSS Start -------------------*/
 
 .drop-menu{
-
 	display: none;
-
-	/* padding: 1.5rem; */
-
 	border-radius: 15px;
-
 	box-shadow: 1px 1px 2px 1px #ccc;         
-
 	position: absolute;
-
 	min-width: 400px;
-
 	margin-top: 10px;
-
-	left: -100px;
-
 }
-
-
-
 .drop-menu::before{
-
 	content: '';
-
 width: 0;
-
 height: 0;
-
 border-left: 9px solid transparent;
-
 border-right: 9px solid transparent;
-
 border-bottom: 17px solid #fff;
-
 position: absolute;
-
 top: -16px;
-
-left: 130px;
-
+left: 42px;
 }
-
 .drop-menu::after{
-
 	content: '';
-
 width: 0;
-
 height: 0;
-
 border-left: 10px solid transparent;
-
 border-right: 10px solid transparent;
-
 border-bottom: 17px solid #bdbdbd;
-
 position: absolute;
-
 top: -17px;
-
-left: 129px;
-
+left: 41px;
 z-index: -1;
-
-	/* --siteMenuSectionOffset: 0;
-
-display: inline-block;
-
-position: absolute;
-
-top: 0;
-
-left: 50%;
-
-transform: translateX(-50%) translateX(0);
-
-transition: 250ms;
-
-transition-property: transform,opacity;
-
-will-change: transform,opacity;
-
-	--siteMenuSectionOffset: 150px;
-
-	--siteMenuRotateX: -15deg;
-
-	--siteMenuTransition: 250ms;
-
---siteMenuArrowSpacing: 13px;
-
-	--scrollbarWidth: 15px; */
-
 }
-
 .nav-item:hover > .drop-menu{
-
 	display: block;
-
 	justify-content: center;
-
 	background: #fff;
-
 z-index: 9;      
-
 }
-
-
-
-/* .nav-item {
-
-	cursor: default;
-
-	transition: 150ms cubic-bezier(0.215,0.61,0.355,1);
-
-	transition-property: color,opacity;
-
-}
-
-
-
-.nav-item:hover {
-
-	position: relative;
-
-height: 100%;
-
-will-change: width;
-
-transition: var(--siteMenuTransition);
-
-z-index: 1;      
-
-} */
-
-
-
 .navbar-light .navbar-toggler {
-
-	/* background: #e9ecef; */
-
 height: 38px;
-
 width: 54px;
-
 border-radius: 20px;
-
 }
-
-
-
 .drop-menu ul {
-
 	list-style: none;
-
 	line-height: 2;
-
 }
-
-
-
-/* .drop-menu li a {
-
-	--fontFamily: "sohne-var","Helvetica Neue","Arial",sans-serif;
-
---fontWeightLight: 200;
-
---fontWeightNormal: 300;
-
---fontWeightSemibold: 425;
-
---fontWeightBold: 500;
-
-	justify-content: space-between;
-
-} */
-
-
-
 /* End of hovarable dropdown */
-
-
-
-
-
 /* Drop Down related css start */
-
-
-
 .products-dd {
-
 	padding: 1.5rem;
-
 }
-
 .products-dd ul li {
-
 	font-size: 14px;
-
 }
-
 .products-dd a {
-
 	color: #000;
-
 text-decoration: none;
-
 	margin-left: -30px;
-
 	padding-top: 20px;
-
 }
-
-
-
 .products-dd li p {
-
 	color: #787878;
-
 text-decoration: none;
-
 	margin-left: -30px;
-
 }
-
-
-
 .products-dd li:hover > p {
-
 	color: #000;
-
 }
-
-
-
 .products-dd ul {
-
 	padding-top: 10px;
-
 }
-
-
-
 .products-nav {
-
 	width: 922px;
-
 	--site-menu-height: 622px;
-
 	pointer-events: auto;
-
 }
-
-
-
 .usecases-dd {
-
 	padding: 1.5rem;
-
 }
-
-
-
 .usecases-dd ul li {
-
 	font-size: 14PX;
-
 }
-
-
-
 .usecases-dd a {
-
 	color: #000;
-
 text-decoration: none;
-
 	margin-left: -30px;
-
 }
-
-
-
 .usecases-dd li p {
-
 	color: #787878;
-
 text-decoration: none;
-
 	margin-left: -30px;
-
 }
-
-
-
-.usecases-dd li:hover >p {
-
+/* .usecases-dd li:hover >p {
 	color: #000;
-
+} */
+.usecases-dd li:hover {
+	color: rgb(58, 55, 55) !important;
+        transition: all 0.5s ease 0s;
+        opacity: 0.3;
+		cursor: pointer;
 }
-
-
-
 .usecases-nav {
-
 	width: 458px;
-
 	--site-menu-height: 352px;
-
 	 pointer-events: auto;
-
 }
-
-
-
 .developers-dd {
-
 	padding: 1.5rem;
-
 }
-
-
-
 .developers-sub-dd ul li {
-
 	font-size: 14PX;
-
 }
-
-
-
 .developers-dd a{
-
 	color: #000;
-
 text-decoration: none;
-
 }
-
-
-
 .developers-dd a p{
-
 	color: #787878;
-
 text-decoration: none;
-
 	margin-top: -5px;
-
 }
-
 .developers-dd a:hover > p{
-
 	  color: #000;
-
 }
-
-
-
 .developers-sub-dd {
-
 	  padding: 1.5rem;
-
 	  position: relative;
-
 bottom: 22px;
-
 }
-
-
-
 .developerssub-dd li {
-
 	color: #000;
-
 text-decoration: none;
-
 }
-
-
-
 .developers-sub-dd li a {
-
 	color: #787878;
-
 text-decoration: none;
-
 	line-height: 5px;
-
 	font-size: small;
-
 	margin-left: -25px;
-
 	font-family: Arial, Helvetica, sans-serif;
-
 }
-
-
-
 .developers-sub-dd li:hover a {
-
 	color: #000;
-
 }
-
-
-
 .developers-dd-footer{
-
 	padding: 2.5rem 2rem; 
-
 	background-color:  #f1f4f7;
-
 	border-radius: 0 0 12px 12px;    
-
 }
-
-
-
 .developers-dd-footer li a {
-
 	color: #000;
-
 text-decoration: none;
-
 }
-
-
-
 .developers-dd-footer ul li {
-
 	font-size: 14px;
-
 }
-
-
-
 .developers-list {
-
 	margin-left: -5px;
-
 }
-
 .developers-nav {
-
 	width: 604px;
-
 	--site-menu-height: 390px;
-
 	pointer-events: auto;
-
 }
-
-
-
 .company-dd {
-
 	padding: 1.5rem;
-
 	margin-left: -35px;
-
 }
-
 .developers-ft {
-
 	margin-left: -35px;
-
 }
-
-
-
 .company-dd ul li {
-
 	font-size: 14PX;
-
 }
-
-
-
-
-
 .company-dd li a {
-
 color: #000;
-
 text-decoration: none;
-
 line-height: 10px;                          
-
 }
-
-
-
 .company-dd-footer {
-
 	padding: 2.5rem 2rem;
-
 	background-color: #f1f4f7;
-
 	border-radius: 0 0 12px 12px;
-
 }
-
-
-
 .company-dd-footer h6 {
-
 	color: #000;
-
 text-decoration: none;
-
 }
-
-
-
 .company-dd-footer li a {
-
 	color: #787878;
-
 text-decoration: none;
-
 	margin-left: -35px;
-
 }
-
-
-
 .company-dd-footer li:hover > a {
-
 	color: #000;
-
 }
-
-
-
 .company-dd-footer ul li {
-
 	font-size: 14px;
-
 }
-
 .company-nav {
-
 	width: 476px;
-
 	--site-menu-height: 367px;
-
 	pointer-events: auto;
-
 }
-
-
-
 /* Drop down related code end */
 
-
+@media(max-width:767px){
+	.drop-menu-res {
+		margin-left: 6rem;
+	}
+}
+@media(max-width:990px){
+	.drop-menu-res {
+		margin-left: 0;
+	}
+}

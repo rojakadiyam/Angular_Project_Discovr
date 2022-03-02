@@ -34,4 +34,10 @@ onWindowScroll() {
       element.classList.remove('navbar-inverse');
     }
   }
+
+  Login(){
+    this.hoemecontent = false;
+    this.router.navigate(['/login']);
+   
+  }
 }

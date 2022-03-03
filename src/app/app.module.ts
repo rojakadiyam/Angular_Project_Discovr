@@ -9,19 +9,22 @@ import { SigningComponent } from './discovr-entry-page/signing/signing.component
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './discovr-entry-page/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CreditCardComponent } from './credit-card-details/credit-card/credit-card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
- 
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FooterComponent,
     SigningComponent,
-    LoginComponent
+    LoginComponent,
+    CreditCardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,RouterModule,ReactiveFormsModule,ToastrModule
+    AppRoutingModule,RouterModule,ReactiveFormsModule, ToastrModule.forRoot({ }),BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

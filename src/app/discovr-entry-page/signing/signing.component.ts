@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import Character from '../data';
+import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-signing',
   templateUrl: './signing.component.html',
@@ -8,7 +9,7 @@ import Character from '../data';
 })
 export class SigningComponent implements OnInit {
   listName:string='';
-  constructor() { }
+  constructor(private toastrService: ToastrService, private router:Router) { }
 
   ngOnInit(): void {
   }
@@ -66,5 +67,17 @@ export class SigningComponent implements OnInit {
   }, {
     listName:'Class (2 for benign 4 malignant)',
   },
-]
+];
+
+success(){
+  this.router.navigate(['/credit']);
+  
+    this.toastrService.success(' Successfully Uploaded', '' , {
+       closeButton: true,
+        timeOut: 1500, // 15 seconds
+        progressBar: true,
+        
+    });
+  }
+
 }

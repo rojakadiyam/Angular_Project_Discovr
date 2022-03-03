@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SigningComponent } from  '././discovr-entry-page/signing/signing.component';
 import {HomeComponent} from '././discovr-entry-page/home/home.component' ;
 import { LoginComponent } from './discovr-entry-page/login/login.component';
+import { CreditCardComponent } from './credit-card-details/credit-card/credit-card.component';
 const routes: Routes = [
   {
     path: '',
@@ -19,6 +20,10 @@ const routes: Routes = [
   {
     path: 'login',
     component:LoginComponent
+  },
+  {
+    path:'credit',
+    component:CreditCardComponent
   }
 ];
 

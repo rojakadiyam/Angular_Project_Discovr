@@ -12,9 +12,9 @@ export class LoginComponent implements OnInit {
 ngOnInit(): void {
     
 }
-invalidDetails = '';
+// invalidDetails = '';
   submitted=false
-  constructor(private r:Router,private fb:FormBuilder) { }
+  constructor(private r:Router,private fb:FormBuilder, private toastrService:ToastrService) { }
   get f(){ return this.form.controls}
 form=this.fb.group({
   uname:['',Validators.required],
@@ -30,10 +30,17 @@ localStorage.setItem('user',this.form.value.uname)
 this.r.navigate(['signing'])
   }else{
     // alert('username & password are incorrect');
-    this.invalidDetails = 'Username & Password are incorrect';
+    this.toastrService.warning(' Username & Password are incorrect', '' , {
+      closeButton: true,
+       timeOut: 1500, // 15 seconds
+       progressBar: true,
+       
+   });
+    // this.invalidDetails = 'Username & Password are incorrect';
     this.form.reset()
     this.submitted=false
 }
 }
 }
+
 }

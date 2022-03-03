@@ -182,60 +182,6 @@ div#close-btn button {
     height: 60px;
 }
 
-/* .file-upload-wrapper:after {
-   
-    content: '';
-    font-size: 18px;
-    position: absolute;
-    top: 0;
-    left: 138px;
-    background: rgb(204, 9, 9);
-    display: block;
-    width: calc(100% - 303px);
-    pointer-events: none;
-    height: 60px - 20px;
-    color: white;
-    line-height: 60px - 20px;
-    height: 41px;
-    border: 1px solid rgba(35, 31, 32, 0.19);
-} */
-
-/* .file-upload-wrapper:before {
-    content: 'Browse';
-    position: absolute;
-    top: 0;
-    width: 160px;
-    right: 0;
-    display: inline-block;
-    height: 40px;
-    text-align: center;
-    background: #fff;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 42px;
-    padding: 0 15px;
-    text-transform: capitalize;
-    pointer-events: none;
-    font-family: roboto;
-    color: #4E5861;
-} */
-
-/* input.file-upload-field {
-    position: relative;
-    left: 36px;
-    top: -42px;
-    z-index: 99;
-    color: white;
-    right: 0;
-    bottom: 0;
-    height: 60px - 20px;
-    margin: 0;
-    padding: 0;
-    display: block;
-    cursor: pointer;
-    width: 100%;
-} */
-
 
 #ulpoad-info {
     text-align: center;

@@ -1,0 +1,168 @@
+.f-roboto {
+    font-family: Roboto;
+
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 9;
+    transition: .3s;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.bg-color {
+    width: 814px;
+    height: 108px;
+    background: #E2F1FF;
+    border: 1px solid #72B5E8;
+    padding-top: 23px;
+}
+.dashed-bg {
+    background: #FBFBFC;
+    border: 1px dashed #72B5E8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.upload-btn {
+    font-size: 14px;
+    width: 160px;
+    background: #EAE8E8;
+    border: 1px solid rgba(35, 31, 32, 0.19);
+    text-align: center;
+   
+}
+
+#ulpoad-info {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #6C7680;
+    font-family: roboto;
+    margin-top: 13px;
+}
+
+/*---end to here---*/
+.border-bg {
+    background: #FBFBFC;
+    border: 1px solid #E5E5E5;
+}
+
+
+li.nav-item {
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+a.nav-link {
+    color: #000000 !important;
+}
+
+
+@media(max-width:767px) {
+    ul.nav.nav-pills {
+        display: none;
+
+    }
+
+    img#footer-img {
+        margin: 11px 0px 0px -28px;
+    }
+}
+
+@media(min-width:768px) {
+    ul.nav.nav-pills {
+        display: flex;
+
+    }
+}
+.page-link {
+    border: none !important;
+}
+#credit-header-space  th{
+    min-width: 112px;
+    font-family: Roboto;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+text-align: right;
+color: #4E5861;
+}
+.credit-data tr td{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #4E5861;
+text-align: right;
+}
+.input-field{
+    width: 150px;
+    display: inline-block;
+    border: 1px solid #C7C7C7;
+    height: 27px;
+    margin-left: 17px;
+}
+.submitbtn{
+    background: #0875C9;
+    width: 165px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #fff;
+    border: 1px solid #0875C9;
+}
+.tabledataText tr td{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    min-width: 165px;
+    text-align: left;
+}
+.credit-card-rows {
+    background: #FBFBFC;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.border-clr{
+    border: 1px solid #DCDCDC;
+}
+button.footer-btns {
+    background: #0875C9;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #fff;
+    border: 1px solid #0875C9;
+    padding: 0px 15px 0px 17px;
+    margin: 0px 6px 0px 23px;
+}
+.tbl-data> :not(:first-child) {
+    border-top: none;
+}
+.tbl-data1> :not(:first-child) {
+   border-top-color: #E5E5E5;
+  
+}tr#credit-header-space {
+    background: #FBFBFC;
+    border: 1px solid #DCDCDC;
+    border-radius: 6px 6px 0px 0px;
+}

@@ -1,0 +1,72 @@
+#header-background{
+	background-image: url("../../../assets/images/linear-background.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.readmore-header-content h4{
+    color: #000000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 43px;
+    max-width: 604px;
+}
+.readmore-header-content p {
+    font-family: Segoe UI;
+    line-height: 21px;
+    max-width: 302px;
+}
+.readmore-content {
+    position: relative;
+    top: 10rem;
+}
+.detection-para p {
+    line-height: 10px;
+}
+.detection3-header{
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: left;   
+}
+.caard-info {
+    line-height: 0px;
+    background: #FBFBFC;
+box-sizing: border-box;
+}
+.center-btns button {
+    border-radius: 43px;
+    border: 0.96px solid #000000;
+    background: #fff;
+    margin: 4px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+#detection-sub-h{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.8);
+}
+#sub-header{
+    font-family: Poppins;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 12px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.fs-22{
+    font-size: 22px;
+}

@@ -12,6 +12,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { CreditCardComponent } from './credit-card-details/credit-card/credit-card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { HeaderComponent } from './discovr-entry-page/header/header.component';
+import { ReadMorePageComponent } from './discovr-entry-page/read-more-page/read-more-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ToastrModule } from 'ngx-toastr';
     FooterComponent,
     SigningComponent,
     LoginComponent,
-    CreditCardComponent
+    CreditCardComponent,
+    HeaderComponent,
+    ReadMorePageComponent
   ],
   imports: [
     BrowserModule,

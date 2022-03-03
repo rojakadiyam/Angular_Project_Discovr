@@ -14,9 +14,10 @@ body{
 .p-t-20{
     padding-top: 20px;
 }
-/* .pb-10{
-    padding-bottom: 10%;
-} */
+.red{
+    color: #FF0000;
+
+}
 .white-bg{
     background-color: #F2F2F2;
 }
@@ -34,6 +35,9 @@ body{
    
         font-family: Poppins;
         font-weight: bold;
+}
+.f-papp{
+    font-family: Poppins;
 }
 .black-clr{
     color: #4E5861;

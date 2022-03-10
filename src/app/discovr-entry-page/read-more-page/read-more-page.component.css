@@ -7,12 +7,12 @@ background-size: cover;
 
 .readmore-header-content h4{
     color: #000000;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 43px;
     line-height: 43px;
-    max-width: 604px;
+    max-width: 486px;
 }
 .readmore-header-content p {
     font-family: Segoe UI;
@@ -39,11 +39,10 @@ background-size: cover;
 box-sizing: border-box;
 }
 .center-btns button {
-    border-radius: 43px;
     border: 0.96px solid #000000;
     background: #fff;
-    margin: 4px;
-    height: 36px;
+    margin: 8px 0px 0px 28px;
+    padding: 10px 27px 10px 27px;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -69,4 +68,7 @@ box-sizing: border-box;
 }
 .fs-22{
     font-size: 22px;
+}
+.black{
+    color: #000000 !important;
 }

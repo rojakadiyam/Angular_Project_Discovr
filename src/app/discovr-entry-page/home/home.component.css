@@ -19,13 +19,7 @@ a.anctag:hover {
     opacity: 0.4;
 }
 
-.bg-rectangle-img{
-	background-image: url("../../../assets/images/Rectangle888.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: auto;
-		max-height: 857px;
-}
+
     .sign-in-btn button {
         height: 38px;
         width: 101px;
@@ -48,40 +42,10 @@ a.anctag:hover {
         width: 100%;
         padding: 50px 0px 0px 0px;
     }
-    .left-content {
-		padding: 138px 24px 0px 24px;
-    }
-    .para p {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 26px;
-    }
-    .child-info p{
-		margin-top: -12px;
-    }
+  
     .data-right-img img {
         float: right;
     }
-
-
-
-	li.nav-item {
-		font-family: Poppins;
-		font-size: 14px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: 18px;
-		letter-spacing: 0em;
-		text-align: left;
-		
-	}
-	a.nav-link {
-		color: #000000 !important;
-	}
-
-
 	
 .top-sticky{
 	position: sticky;
@@ -137,7 +101,7 @@ background-size: cover;
 			}.child-info p {
 				padding: 0px 24px 0px 24px;
 			}
-			.para {
+			.detection-sub-content {
 				padding: 0px 24px 0px 24px;
 			}.read-btn{
 				margin-left: 20px;
@@ -154,7 +118,7 @@ background-size: cover;
 			}.child-info p {
 				padding: 0px;
 			}
-			.para {
+			.detection-sub-content {
 				padding: 0px;
 			}.read-btn{
 				margin-left: 0px;
@@ -271,211 +235,9 @@ background-size: cover;
 		}
 		/* ------------------------ Hovarable Dropdown CSS Start -------------------*/
 
-.drop-menu{
-	display: none;
-	border-radius: 15px;
-	box-shadow: 1px 1px 2px 1px #ccc;         
-	position: absolute;
-	min-width: 400px;
-	margin-top: 10px;
-}
-.drop-menu::before{
-	content: '';
-width: 0;
-height: 0;
-border-left: 9px solid transparent;
-border-right: 9px solid transparent;
-border-bottom: 17px solid #fff;
-position: absolute;
-top: -16px;
-left: 42px;
-}
-.drop-menu::after{
-	content: '';
-width: 0;
-height: 0;
-border-left: 10px solid transparent;
-border-right: 10px solid transparent;
-border-bottom: 17px solid #bdbdbd;
-position: absolute;
-top: -17px;
-left: 41px;
-z-index: -1;
-}
-.nav-item:hover > .drop-menu{
-	display: block;
-	justify-content: center;
-	background: #fff;
-z-index: 9;      
-}
-.navbar-light .navbar-toggler {
-height: 38px;
-width: 54px;
-border-radius: 20px;
-}
-.drop-menu ul {
-	list-style: none;
-	line-height: 2;
-}
+
 /* End of hovarable dropdown */
-/* Drop Down related css start */
-.products-dd {
-	padding: 1.5rem;
-}
-.products-dd ul li {
-	font-size: 14px;
-}
-.products-dd a {
-	color: #000;
-text-decoration: none;
-	margin-left: -30px;
-	padding-top: 20px;
-}
-.products-dd li p {
-	color: #787878;
-text-decoration: none;
-	margin-left: -30px;
-}
-.products-dd li:hover > p {
-	color: #000;
-}
-.products-dd ul {
-	padding-top: 10px;
-}
-.products-nav {
-	width: 922px;
-	--site-menu-height: 622px;
-	pointer-events: auto;
-}
-.usecases-dd {
-	padding: 1.5rem;
-}
-.usecases-dd ul li {
-	font-size: 14PX;
-}
-.usecases-dd a {
-	color: #000;
-text-decoration: none;
-	margin-left: -30px;
-}
-.usecases-dd li p {
-	color: #787878;
-text-decoration: none;
-	margin-left: -30px;
-}
-/* .usecases-dd li:hover >p {
-	color: #000;
-} */
-.usecases-dd li:hover {
-	color: rgb(58, 55, 55) !important;
-        transition: all 0.5s ease 0s;
-        opacity: 0.3;
-		cursor: pointer;
-}
-.usecases-nav {
-	width: 458px;
-	--site-menu-height: 352px;
-	 pointer-events: auto;
-}
-.developers-dd {
-	padding: 1.5rem;
-}
-.developers-sub-dd ul li {
-	font-size: 14PX;
-}
-.developers-dd a{
-	color: #000;
-text-decoration: none;
-}
-.developers-dd a p{
-	color: #787878;
-text-decoration: none;
-	margin-top: -5px;
-}
-.developers-dd a:hover > p{
-	  color: #000;
-}
-.developers-sub-dd {
-	  padding: 1.5rem;
-	  position: relative;
-bottom: 22px;
-}
-.developerssub-dd li {
-	color: #000;
-text-decoration: none;
-}
-.developers-sub-dd li a {
-	color: #787878;
-text-decoration: none;
-	line-height: 5px;
-	font-size: small;
-	margin-left: -25px;
-	font-family: Arial, Helvetica, sans-serif;
-}
-.developers-sub-dd li:hover a {
-	color: #000;
-}
-.developers-dd-footer{
-	padding: 2.5rem 2rem; 
-	background-color:  #f1f4f7;
-	border-radius: 0 0 12px 12px;    
-}
-.developers-dd-footer li a {
-	color: #000;
-text-decoration: none;
-}
-.developers-dd-footer ul li {
-	font-size: 14px;
-}
-.developers-list {
-	margin-left: -5px;
-}
-.developers-nav {
-	width: 604px;
-	--site-menu-height: 390px;
-	pointer-events: auto;
-}
-.company-dd {
-	padding: 1.5rem;
-	margin-left: -35px;
-}
-.developers-ft {
-	margin-left: -35px;
-}
-.company-dd ul li {
-	font-size: 14PX;
-}
-.company-dd li a {
-color: #000;
-text-decoration: none;
-line-height: 10px;                          
-}
-.company-dd-footer {
-	padding: 2.5rem 2rem;
-	background-color: #f1f4f7;
-	border-radius: 0 0 12px 12px;
-}
-.company-dd-footer h6 {
-	color: #000;
-text-decoration: none;
-}
-.company-dd-footer li a {
-	color: #787878;
-text-decoration: none;
-	margin-left: -35px;
-}
-.company-dd-footer li:hover > a {
-	color: #000;
-}
-.company-dd-footer ul li {
-	font-size: 14px;
-}
-.company-nav {
-	width: 476px;
-	--site-menu-height: 367px;
-	pointer-events: auto;
-}
-/* Drop down related code end */
+
 
 @media(max-width:767px){
 	.drop-menu-res {
@@ -486,4 +248,14 @@ text-decoration: none;
 	.drop-menu-res {
 		margin-left: 0;
 	}
+}
+.detection-para p {
+    line-height: 10px;
+}
+#detection-sub-h{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
 }

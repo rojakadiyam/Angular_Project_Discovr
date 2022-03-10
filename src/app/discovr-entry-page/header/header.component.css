@@ -319,34 +319,6 @@ border-radius: 20px;
 }
 /* End of hovarable dropdown */
 /* Drop Down related css start */
-.products-dd {
-	padding: 1.5rem;
-}
-.products-dd ul li {
-	font-size: 14px;
-}
-.products-dd a {
-	color: #000;
-text-decoration: none;
-	margin-left: -30px;
-	padding-top: 20px;
-}
-.products-dd li p {
-	color: #787878;
-text-decoration: none;
-	margin-left: -30px;
-}
-.products-dd li:hover > p {
-	color: #000;
-}
-.products-dd ul {
-	padding-top: 10px;
-}
-.products-nav {
-	width: 922px;
-	--site-menu-height: 622px;
-	pointer-events: auto;
-}
 .usecases-dd {
 	padding: 1.5rem;
 }
@@ -354,124 +326,60 @@ text-decoration: none;
 	font-size: 14PX;
 }
 .usecases-dd a {
-	color: #000;
+	color: #465B6F;
 text-decoration: none;
 	margin-left: -30px;
+	font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 0px 6px 0px;
 }
 .usecases-dd li p {
 	color: #787878;
 text-decoration: none;
 	margin-left: -30px;
 }
-/* .usecases-dd li:hover >p {
+.usecases-dd li h6{
+	padding: 6px 0px 7px;
+}
+.usecases-dd li:hover >p {
 	color: #000;
-} */
-.usecases-dd li:hover {
+}
+.usecases-dd li a:hover {
 	color: rgb(58, 55, 55) !important;
         transition: all 0.5s ease 0s;
         opacity: 0.3;
 		cursor: pointer;
 }
 .usecases-nav {
-	width: 458px;
+	width: 474px;
 	--site-menu-height: 352px;
 	 pointer-events: auto;
 }
-.developers-dd {
-	padding: 1.5rem;
-}
-.developers-sub-dd ul li {
-	font-size: 14PX;
-}
-.developers-dd a{
-	color: #000;
-text-decoration: none;
-}
-.developers-dd a p{
-	color: #787878;
-text-decoration: none;
-	margin-top: -5px;
-}
-.developers-dd a:hover > p{
-	  color: #000;
-}
-.developers-sub-dd {
-	  padding: 1.5rem;
-	  position: relative;
-bottom: 22px;
-}
-.developerssub-dd li {
-	color: #000;
-text-decoration: none;
-}
-.developers-sub-dd li a {
-	color: #787878;
-text-decoration: none;
-	line-height: 5px;
-	font-size: small;
-	margin-left: -25px;
-	font-family: Arial, Helvetica, sans-serif;
-}
-.developers-sub-dd li:hover a {
-	color: #000;
-}
-.developers-dd-footer{
-	padding: 2.5rem 2rem; 
-	background-color:  #f1f4f7;
-	border-radius: 0 0 12px 12px;    
-}
-.developers-dd-footer li a {
-	color: #000;
-text-decoration: none;
-}
-.developers-dd-footer ul li {
-	font-size: 14px;
-}
-.developers-list {
-	margin-left: -5px;
-}
-.developers-nav {
-	width: 604px;
-	--site-menu-height: 390px;
-	pointer-events: auto;
-}
+
 .company-dd {
 	padding: 1.5rem;
 	margin-left: -35px;
 }
-.developers-ft {
-	margin-left: -35px;
-}
-.company-dd ul li {
-	font-size: 14PX;
-}
+
 .company-dd li a {
-color: #000;
-text-decoration: none;
-line-height: 10px;                          
+	color: #465B6F;
+	text-decoration: none;
+		margin-left: -30px;
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 500;
+		padding: 8px 0px 6px 0px;                        
 }
-.company-dd-footer {
-	padding: 2.5rem 2rem;
-	background-color: #f1f4f7;
-	border-radius: 0 0 12px 12px;
+.company-dd li a:hover {
+	color: rgb(58, 55, 55) !important;
+        transition: all 0.5s ease 0s;
+        opacity: 0.3;
+		cursor: pointer;
 }
-.company-dd-footer h6 {
-	color: #000;
-text-decoration: none;
-}
-.company-dd-footer li a {
-	color: #787878;
-text-decoration: none;
-	margin-left: -35px;
-}
-.company-dd-footer li:hover > a {
-	color: #000;
-}
-.company-dd-footer ul li {
-	font-size: 14px;
-}
+
 .company-nav {
-	width: 476px;
+	width: 394px;
 	--site-menu-height: 367px;
 	pointer-events: auto;
 }
